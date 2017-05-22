@@ -13,6 +13,7 @@
 		18116CAF1ECF10F60025603E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18116CAE1ECF10F60025603E /* Assets.xcassets */; };
 		18116CB21ECF10F60025603E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18116CB01ECF10F60025603E /* LaunchScreen.storyboard */; };
 		18116CDA1ED288AD0025603E /* team.json in Resources */ = {isa = PBXBuildFile; fileRef = 18116CD91ED288AC0025603E /* team.json */; };
+		18116CDC1ED28FC80025603E /* ForTheEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18116CDB1ED28FC80025603E /* ForTheEvaluator.swift */; };
 		5DA31A3EDBFD38B495F537A0 /* Pods_MeetTheTeam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C038D6F99FDBCF3D87B1122 /* Pods_MeetTheTeam.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		18116CB11ECF10F60025603E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18116CB31ECF10F60025603E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18116CD91ED288AC0025603E /* team.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = team.json; sourceTree = "<group>"; };
+		18116CDB1ED28FC80025603E /* ForTheEvaluator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForTheEvaluator.swift; sourceTree = "<group>"; };
 		3DE02207EDA9B23E510C000D /* Pods-MeetTheTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetTheTeam.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetTheTeam/Pods-MeetTheTeam.release.xcconfig"; sourceTree = "<group>"; };
 		5C038D6F99FDBCF3D87B1122 /* Pods_MeetTheTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetTheTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE432894D7B89B70B07D11F /* Pods-MeetTheTeam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetTheTeam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetTheTeam/Pods-MeetTheTeam.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				18116CB01ECF10F60025603E /* LaunchScreen.storyboard */,
 				18116CB31ECF10F60025603E /* Info.plist */,
 				18116CD91ED288AC0025603E /* team.json */,
+				18116CDB1ED28FC80025603E /* ForTheEvaluator.swift */,
 			);
 			path = MeetTheTeam;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18116CDC1ED28FC80025603E /* ForTheEvaluator.swift in Sources */,
 				18116CAA1ECF10F60025603E /* ViewController.swift in Sources */,
 				18116CA81ECF10F60025603E /* AppDelegate.swift in Sources */,
 			);
